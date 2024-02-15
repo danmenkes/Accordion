@@ -35,7 +35,7 @@ const Accordion = () => {
                         data.map(dataItem =>{
                             const {id, question,answer} = dataItem
                             return (
-                                <div className="item">
+                                <div className="item" key={id}>
                                     <div onClick={
                                         ()=> enableMultiSelection ? handleMultiSelection(id): handleSingleSelection(id)
                                     }
