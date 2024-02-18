@@ -1,0 +1,20 @@
+.load-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.items-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+}
+
+.load-item {
+    border: solid black 1px;
+    margin: 10px;
+    padding:5px;
+    border-radius: 5px;
+}

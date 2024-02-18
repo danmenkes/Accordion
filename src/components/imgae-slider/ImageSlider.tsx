@@ -57,7 +57,7 @@ export const ImageSlider = ({ url, limit }: Props) => {
         }}
         className="arrow arrow-left"
       />
-      {images && images.length
+      {images?.length
         ? images.map((image: ImageType, index) => {
             return (
               <img
@@ -84,7 +84,7 @@ export const ImageSlider = ({ url, limit }: Props) => {
       />
 
       <span className="circle-indicators">
-        {images && images.length
+        {images?.length
           ? images.map((_, index: number) => {
               return (
                 <button
