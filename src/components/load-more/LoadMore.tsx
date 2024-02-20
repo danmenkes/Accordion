@@ -34,7 +34,7 @@ export const LoadMore = () => {
       setProductData(data.products);
       setLoading(false);
     });
-  }, []);
+  }, [skip]);
 
   if (!productData?.length) return <div>Loading</div>;
 
