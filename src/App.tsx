@@ -5,6 +5,7 @@ import StarRating from "./components/star-rating/StarRating";
 import { ImageSlider } from "./components/imgae-slider/ImageSlider";
 import { LoadMore } from "./components/load-more/LoadMore";
 import TreeView from "./components/tree-view/TreeView";
+import QrCode from "./components/qr-code/QrCode";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
 
       <LoadMore />
       <TreeView />
+
+      <QrCode />
     </div>
   );
 }
