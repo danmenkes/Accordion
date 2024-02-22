@@ -7,6 +7,7 @@ import { LoadMore } from "./components/load-more/LoadMore";
 import TreeView from "./components/tree-view/TreeView";
 import Theme from "./components/theme/Theme";
 import Theme2 from "./components/theme2/Theme2";
+import QrCode from "./components/qr-code/QrCode";
 
 function App() {
   return (
@@ -21,9 +22,13 @@ function App() {
       <LoadMore />
       <TreeView />
 
+
       <Theme />
 
       <Theme2 />
+
+      <QrCode />
+
     </div>
   );
 }
