@@ -7,6 +7,7 @@ import { LoadMore } from "./components/load-more/LoadMore";
 import TreeView from "./components/tree-view/TreeView";
 import Theme from "./components/theme/Theme";
 import Theme2 from "./components/theme2/Theme2";
+import ScrollIndicator from "./components/custom-scroll-indicator/ScrollIndicator";
 import QrCode from "./components/qr-code/QrCode";
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
 
       <QrCode />
 
+      <ScrollIndicator url="https://dummyjson.com/products?limit=100" />
     </div>
   );
 }
