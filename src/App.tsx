@@ -7,6 +7,7 @@ import { LoadMore } from "./components/load-more/LoadMore";
 import TreeView from "./components/tree-view/TreeView";
 import Theme from "./components/theme/Theme";
 import Theme2 from "./components/theme2/Theme2";
+import ScrollIndicator from "./components/custom-scroll-indicator/ScrollIndicator";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Theme />
 
       <Theme2 />
+      <ScrollIndicator url="https://dummyjson.com/products?limit=100" />
     </div>
   );
 }
