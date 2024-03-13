@@ -9,6 +9,7 @@ import Theme from "./components/theme/Theme";
 import Theme2 from "./components/theme2/Theme2";
 import ScrollIndicator from "./components/custom-scroll-indicator/ScrollIndicator";
 import QrCode from "./components/qr-code/QrCode";
+import Tab from "./components/tabs/Tab";
 
 function App() {
   return (
@@ -23,7 +24,6 @@ function App() {
       <LoadMore />
       <TreeView />
 
-
       <Theme />
 
       <Theme2 />
@@ -31,6 +31,8 @@ function App() {
       <QrCode />
 
       <ScrollIndicator url="https://dummyjson.com/products?limit=100" />
+
+      <Tab />
     </div>
   );
 }
