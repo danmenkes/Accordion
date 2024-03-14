@@ -11,6 +11,7 @@ import ScrollIndicator from "./components/custom-scroll-indicator/ScrollIndicato
 import QrCode from "./components/qr-code/QrCode";
 import Tab from "./components/tabs/Tab";
 import ModalTest from "./components/modal/modal-test";
+import GithubProfileFinder from "./components/ github-profile-finder/GithubProfileFinder";
 
 function App() {
   return (
@@ -36,6 +37,8 @@ function App() {
       <Tab />
 
       <ModalTest />
+
+      <GithubProfileFinder />
     </div>
   );
 }
