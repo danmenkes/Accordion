@@ -1,5 +1,5 @@
 import "./githubProfileFinder.css";
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import User from "./User";
 
 const GithubProfileFinder = () => {
@@ -24,8 +24,8 @@ const GithubProfileFinder = () => {
   };
 
   useEffect(() => {
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     fetchGithubUserData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   if (loading) {
