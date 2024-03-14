@@ -10,6 +10,7 @@ import Theme2 from "./components/theme2/Theme2";
 import ScrollIndicator from "./components/custom-scroll-indicator/ScrollIndicator";
 import QrCode from "./components/qr-code/QrCode";
 import Tab from "./components/tabs/Tab";
+import ModalTest from "./components/modal/modal-test";
 
 function App() {
   return (
@@ -33,6 +34,8 @@ function App() {
       <ScrollIndicator url="https://dummyjson.com/products?limit=100" />
 
       <Tab />
+
+      <ModalTest />
     </div>
   );
 }
